@@ -12,9 +12,6 @@ public class ContainerActivator : MonoBehaviour
     private bool isStoreContainerActive = false;
     private bool isManufacturerContainerActive = false;
 
-    //isShapeContainerP1Active = !isShapeContainerP1Active;
-    //shapeContainerP1.SetActive(isShapeContainerP1Active);
-
     public void ActivateSellerContainer()
     {
         isSellerContainerActive = !isSellerContainerActive;
