@@ -33,8 +33,8 @@ public class CooldownBar3 : MonoBehaviour
 
         else
         {
-            counterManager.GetComponent<CounterManager>().AddMoney(15);
-            counterManager2.GetComponent<CounterManager>().AddStock(-10);
+            counterManager.GetComponent<CounterManager>().AddMerch(15);
+            counterManager2.GetComponent<CounterManager>().AddMoney(-10);
             currentTime = restartTime;
             this.transform.parent.gameObject.SetActive(false);
         }
